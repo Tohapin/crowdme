@@ -1,0 +1,73 @@
+.wrapper--showcase
+  width: 401px
+  margin-top: 80px
+  margin-left: 137px
+  margin-right: 320px
+
+.wrapper__hr
+  display: flex
+  margin-bottom: 14px
+  align-items: center
+  font-family: $FuturaPT;
+  font-size: 17px
+  font-weight: normal
+  font-stretch: normal
+  font-style: normal
+  line-height: 1.09
+  letter-spacing: 0.85px
+  text-align: left
+  color: $white-font
+
+.wrapper__hr:before
+  content: ''
+  display: block
+  height: 1px
+  width: 100%
+  margin-right: 20px
+  opacity: 0.3
+  background-color: white
+
+.wrapper__hr:after
+  content: ''
+  display: block
+  height: 1px
+  width: 100%
+  margin-left: 20px
+  opacity: 0.3
+  background-color: white
+
+.wrapper__links
+  display: flex
+  justify-content: space-between
+
+.wrapper__icon--border
+  border-radius: 6px
+  border: solid 2px
+  border-color: rgba(247, 247, 247, 0.1)
+
+.wrapper--screen-description
+  position: absolute
+  display: inline
+  top: -75px
+  left: 250px
+
+@media screen and ( max-width: $mobile-width-viewport ) 
+  .wrapper--screen-application
+    display: none
+  
+  .wrapper--showcase
+    width: 500px
+    margin: 0
+
+  .wrapper__hr
+    font-size: 32px
+  
+  .wrapper__hr:before
+    margin-right: 10px
+
+  .wrapper__hr:after
+    margin-left: 10px
+  
+  .wrapper__icon svg
+    width: 233px
+    height: 60px

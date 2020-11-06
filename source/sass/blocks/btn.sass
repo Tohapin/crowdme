@@ -1,0 +1,139 @@
+.btn--partner
+  cursor: pointer
+  display: block
+  border: solid 2px #ffffff
+  border-radius: 6px
+  background-color: transparent
+  padding: 7px 25px
+  height: auto
+  font-family: $FuturaDemiC;
+  font-size: 15px
+  letter-spacing: 0.75px
+  font-weight: normal
+  text-transform: uppercase
+  color: $white-font
+  text-align: center
+  text-decoration: none
+
+.btn--titles
+  cursor: pointer
+  display: block
+  height: calc(100% - 4px)
+  border: none
+  margin-right: 24px
+  background-color: transparent
+  height: auto
+  font-family: $FuturaDemiC;
+  font-size: 31.5px
+  letter-spacing: 1.6px
+  font-weight: normal
+  text-transform: uppercase
+  color: $white-font
+  opacity: 0.3
+  text-align: center
+  text-decoration: none
+
+.btn--active
+  position: relative
+  color: $white-font
+  opacity: 1
+
+.btn--active:after
+  content: ""
+  position: absolute
+  margin-top: 10px
+  display: block
+  background-color: $white
+  width: 100%
+  height: 4px
+
+.btn--indent
+  margin-right: 355px
+
+.btn-rewind
+  z-index: 3
+  display: flex
+  align-items: center
+  cursor: pointer
+  border: none
+  border-radius: 10px
+  background-color: $nautical
+  width: min-content
+  position: absolute
+  padding-top: 10px
+  padding-bottom: 15px
+  left: 0
+  right: 0
+  bottom: -21px
+  margin: 0 auto
+  box-shadow: 0 0 40px rgba(0,0,0,0.5);
+
+.btn-rewind__text
+  padding-left: 40px 
+  padding-right: 40px
+  font-family: $FuturaPT
+  font-size: 20px
+  font-weight: normal
+  font-stretch: normal
+  font-style: normal
+  letter-spacing: 0.68px
+  color: $white
+
+.btn--slider
+  width: 38px
+  height: 38px
+  display: flex
+  justify-content: center
+  align-items: center
+  cursor: pointer
+  display: block
+  border: none
+  border-radius: 50%
+  opacity: 0.25
+  background-color: #f48078
+  text-align: center
+  text-decoration: none
+
+.btn--slider svg
+  display: flex
+
+.btn--partners
+  text-decoration: none
+  cursor: pointer
+  display: block
+  border: none
+  margin-top: 30px
+  padding: 21px 85px
+  background-color: $nautical
+  height: auto
+  font-family: $FuturaDemiC;
+  font-size: 19px
+  letter-spacing: 1.58px
+  font-weight: normal
+  text-transform: uppercase
+  color: $white-font
+
+.btn--contact
+  text-decoration: none
+  cursor: pointer
+  display: block
+  border: solid 2px $white
+  border-radius: 6px
+  padding-left: 14px
+  padding-right: 15px
+  padding-top: 7px
+  padding-bottom: 8px
+  background-color: transparent
+  height: auto
+  font-family: $FuturaPT;
+  font-size: 16px
+  font-weight: normal
+  text-transform: uppercase
+  color: $white-font
+
+.btn--contact svg
+  margin-right: 4px
+
+@media screen and ( max-width: $mobile-width-viewport ) 
+  .btn-rewind
+    display: none

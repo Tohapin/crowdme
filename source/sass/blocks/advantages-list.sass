@@ -1,0 +1,48 @@
+.advantages-list
+  box-sizing: border-box
+  margin: 0 auto
+  margin-bottom: 135px
+  padding: 0
+  width: $container-desktop-width
+  display: flex
+  flex-direction: row
+  justify-content: space-between
+  list-style: none
+
+.advantages-list__item
+  text-align: center
+  width: 260px
+
+.advantages-list__item svg
+  margin-bottom: 14px
+
+.advantages-list__item h2
+  font-family: $FuturaDemiC
+  font-size: 21.5px
+  font-weight: normal
+  font-stretch: normal
+  font-style: normal
+  letter-spacing: 0.22px
+  color: $black-font
+  text-transform: uppercase
+  margin-block-start: 0
+  margin-block-end: 8px
+  margin-bottom: 8px
+
+
+.advantages-list__item p
+  font-family: $FuturaPT
+  font-size: 17.5px
+  font-weight: normal
+  font-stretch: normal
+  font-style: normal
+  letter-spacing: 0.18px
+  color: $black-font
+  margin-block-start: 0
+  margin-block-end: 0
+
+@media screen and ( max-width:  $mobile-width-viewport )
+  .advantages-list
+    width: $container-mobile-width
+    flex-wrap: wrap
+  

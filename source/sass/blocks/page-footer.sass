@@ -1,0 +1,52 @@
+.page-footer
+  display: flex
+  background: url("../img/bg.jpg") no-repeat
+  background-size: cover
+  background-position-y: -400px
+  position: relative
+  box-sizing: border-box
+  width: $desktop-width
+  margin: 0 auto
+  padding: 0 159px
+  padding-top: 40px
+  padding-bottom: 35px
+
+.page-footer__info
+  flex-grow: 1
+  display: flex
+  flex-direction: column
+
+.page-footer__info span
+  margin-bottom: 5px
+  text-transform: uppercase
+  font-family: $FuturaPT
+  font-size: 14px
+  line-height: 1.6
+  font-weight: normal
+  font-stretch: normal
+  font-style: normal
+  letter-spacing: normal
+  color: $white-font
+  
+.page-footer__info a
+  font-family: $FuturaPT
+  font-size: 12px
+  font-weight: normal
+  font-style: normal
+  letter-spacing: normal
+  text-transform: uppercase
+  color: $link-gray;
+
+.page-footer__info-links
+  display: flex
+  flex-direction: row
+  flex-basis: 
+
+.page-footer__info-links a
+  &:not(:last-child)
+    margin-right: 54px
+
+@media screen and ( max-width:  $mobile-width-viewport )
+  .page-footer
+    width: $mobile-width
+    background-position-y: 0px

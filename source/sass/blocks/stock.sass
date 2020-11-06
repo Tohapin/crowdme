@@ -1,0 +1,56 @@
+.stock
+  display: flex
+  position: relative
+  box-sizing: border-box
+  margin: 0 auto
+  width: $desktop-width
+  background-image: linear-gradient(to top, #f0efef, #fafafa)
+
+.stock__text
+  width: 515px
+  padding-left: 295px
+  padding-top: 65px
+  padding-bottom: 155px
+
+.stock__text h2
+  margin-block-start: 0
+  margin-block-end: 0
+  margin-bottom: 25px
+  text-transform: uppercase
+  font-family: $FuturaDemiC
+  font-size: 31.5px
+  font-weight: normal
+  font-stretch: normal
+  font-style: normal
+  letter-spacing: 1.58px
+  color: $black-font
+
+.stock__text p
+  font-family: $FuturaPT
+  font-size: 20px
+  font-weight: normal
+  font-stretch: normal
+  font-style: normal
+  line-height: 26px
+  color: $black-font
+
+.stock__img
+  position: absolute
+  display: flex
+  top: -190px
+  right: 200px
+
+.stock__img img:first-child
+  position: relative
+  top: 25px
+  left: 80px
+
+@media screen and ( max-width:  $mobile-width-viewport )
+  .stock
+    width: $mobile-width
+
+  .stock__text
+    padding: 0
+
+  .stock__img
+    display: none
